@@ -1,4 +1,8 @@
-import Home from './components/home';
+import Home from './pages/home';
+import Home2 from './pages/home2';
+import Slider from './components/slider';
+
+import Footer from './components/footer';
 
 import { BrowserRouter as Router, Routes, Route } from  "react-router-dom";
 
@@ -9,21 +13,19 @@ function App() {
     <div className="App">
 
       <Router>
-
         <Navbar />
-
+        
         <Routes>
             <Route path='/' />
             <Route path='/products' />
             <Route path='/contact' />
-
         </Routes>
       </Router>
-
-
       <Home />
-      
-      
+      <Slider />
+      <Home2 /> 
+      <Footer />
+  
     </div>
   );
 }
