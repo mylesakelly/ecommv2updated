@@ -1,6 +1,6 @@
 import Home from './pages/home';
-import Home2 from './pages/home2';
-import Slider from './components/slider';
+import Contact from './pages/contact';
+import Products from './pages/products';
 
 import Footer from './components/footer';
 
@@ -14,18 +14,17 @@ function App() {
 
       <Router>
         <Navbar />
+  
         
         <Routes>
-            <Route path='/' />
-            <Route path='/products' />
-            <Route path='/contact' />
+            <Route path='/' element={<Home /> } />
+            <Route path='/products' element={<Products /> }  />
+            <Route path='/contact' element={<Contact /> }  />
         </Routes>
       </Router>
-      <Home />
-      <Slider />
-      <Home2 /> 
+
       <Footer />
-  
+
     </div>
   );
 }
