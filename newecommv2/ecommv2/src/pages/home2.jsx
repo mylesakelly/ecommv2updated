@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/home.css';
+import '../css/home2.css';
 import customer from '../images/customerpic4.webp';
 import icon1 from '../images/philosophy.png';
 import icon2 from '../images/dog.png';
@@ -15,11 +15,11 @@ function Home2 () {
           <img className="customerpic" src={customer} alt="customer" />
   
           <div className="value-text">
-            <img className="icon" src={icon1} width="40px" height="40px" alt="icon1" />
+            <img className="icon" src={icon1} alt="icon1" />
             <p className="value-text-1">Create a peaceful and <br />tranquil home</p><br />
-            <img className="icon" src={icon2} width="40px" height="40px" alt="icon2" />
+            <img className="icon" src={icon2} alt="icon2" />
             <p>Animal friendly plants</p><br />
-            <img className="icon" src={icon3} width="40px" height="40px" alt="icon3"/>
+            <img className="icon" src={icon3} alt="icon3"/>
             <p>Brighten up your Space</p><br />
           </div>
         </section>

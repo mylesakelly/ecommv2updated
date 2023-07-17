@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import '../css/slider.css';
 import preBtn from '../images/left-arrow.png';
 import nxtBtn from '../images/left-arrow.png';
 import plant1 from '../images/plant1.webp';

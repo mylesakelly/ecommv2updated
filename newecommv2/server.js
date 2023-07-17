@@ -1,20 +1,30 @@
-const fs = require('fs');
+// importing node modules
 const express = require('express');
 const app = express();
 const mysql = require('mysql');
-const path = require('path');
-const bodyParser = require('body-parser');
 const port = 5000;
+
 
 app.use(express.json());
 
+// using this middleware because I was geting the error that I could not fetch to the productsjson api endpoint because of CORS
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000'); // front end server (react app)
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  next();
+});
+
+// storing mysql database information in connection variable
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'password',
     database: 'nodelogin'
   });
-  
+
+
+  // establishing connection the database and logging if the connection was successful or not
   connection.connect((error) => {
     if (error) {
       console.error('Error connecting to the database:', error);
@@ -23,8 +33,8 @@ const connection = mysql.createConnection({
     }
   });
 
-  // read all data from the mysql database
 
+  // read all data from the mysql database
   app.get('/productsjson', (req, res) => {
     const query = 'SELECT * FROM plantproducts';
   
@@ -38,9 +48,43 @@ const connection = mysql.createConnection({
     });
   });
 
+  // filtering data from mysql database
+
+  // products that are plants
+
+  app.get('/onlyplants', (req, res) => {
+    const query = 'SELECT * FROM plantproducts WHERE id IN (1, 2, 3, 5, 6, 8, 9)';
+  
+    connection.query(query, (error, results) => {
+      if (error) {
+        console.error('Error executing the query:', error);
+        res.status(500).send('Internal Server Error');
+      } else {
+        res.status(200).json(results);
+      }
+    });
+  });
+
+  // products that are trees
+
+  app.get('/onlytrees', (req, res) => {
+    const query = 'SELECT * FROM plantproducts WHERE id IN (4, 7, 10, 11, 12)';
+  
+    connection.query(query, (error, results) => {
+      if (error) {
+        console.error('Error executing the query:', error);
+        res.status(500).send('Internal Server Error');
+      } else {
+        res.status(200).json(results);
+      }
+    });
+  });
+
+  // products less than $50
 
 
 
+// establishing port connection for server (running on port 5000)
   app.listen(port, () => {
     console.log(`App is running on port ${port}...`);
   });
