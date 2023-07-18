@@ -1,0 +1,86 @@
+[
+    {
+    "Id": 1,
+    "ProductImage": "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2022/06/bloomscape_calathea-pinstripe_sm_angle2_Edited-scaled-e1667843072593.jpg?ver=902530",
+    "ProductName": "Calathea Pinstripe",
+    "Description": "Perfect Plant for Beginners. Beautiful Leaves with Pink Stripes",
+    "Price": 50
+    },
+    {
+    "Id": 2,
+    "ProductImage": "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2022/08/bloomscape_sansevieria_xs_taupe.jpg?ver=927229",
+    "ProductName": "Snake Plant",
+    "Description": "Plant that is perfect for lowlight. Strong and Sturdy Plant",
+    "Price": 30
+    },
+    {
+    "Id": 3,
+    "ProductImage": "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=1536,width=1280,metadata=copyright,format=webp/wp-content/uploads/2022/10/bloomscape_xs-golden-pothos-opp_xs_white.jpg",
+    "ProductName": "Pothos Plant",
+    "Description": "Beautiful plant with light green leaves. Perfect for beginners",
+    "Price": 15
+    },
+    {
+    "Id": 4,
+    "ProductImage": "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2020/08/bloomscape_bromeliad-pineapple_slate-e1628793944482.jpg?ver=279194",
+    "ProductName": "Mini Pineapple Tree",
+    "Description": "Minature pineapple tree",
+    "Price": 61
+    },
+    {
+    "Id": 5,
+    "ProductImage": "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=1536,width=1280,metadata=copyright,format=webp/wp-content/uploads/2022/08/bloomscape_burgundy-rubber-tree_lg_charcoal.jpg",
+    "ProductName": "Rubber Tree Plant",
+    "Description": "Large, glossy, leaves. Moody and Durable",
+    "Price": 26
+    },
+    {
+    "Id": 6,
+    "ProductImage": "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2021/12/Bloomscape_Jade_small_slate-scaled.jpg?ver=639516",
+    "ProductName": "Jade Plant",
+    "Description": "A beloved succulent that is easy to care for and can be passed down for generations",
+    "Price": 49
+    },
+    {
+    "Id": 7,
+    "ProductImage": "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2020/08/bloomscape_money-tree_slate-e1643402075928.jpg?ver=279409",
+    "ProductName": "Money Tree",
+    "Description": "Popular for its use in Feng Shui, the Money Tree is a pet-friendly and air-purifying plant",
+    "Price": 169
+    },
+    {
+    "Id": 8,
+    "ProductImage": "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2021/06/bloomscape_philodendron-heartleaf_charcoal_0621-scaled-e1625248672512.jpg?ver=542534",
+    "ProductName": "Philodendren Heartleaf",
+    "Description": "Trailing plant with whimsical heart-shaped leaves",
+    "Price": 49
+    },
+    {
+    "Id": 9,
+    "ProductImage": "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2021/12/Bloomscape_SansevieriaMasoniana_medium_Indigo-scaled.jpg?ver=640201",
+    "ProductName": "Whale Fin Sansevieria",
+    "Description": "Trailing plant with whimsical heart-shaped leavesMaking a huge statement with just one leaf, the Whale Fin Sansevieria is quite the standout among houseplants.",
+    "Price": 79
+    },
+    {
+    "Id": 10,
+    "ProductImage": "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=1536,width=1280,metadata=copyright,format=webp/wp-content/uploads/2023/05/230516_bloomscape_olive_trees_10789-scaled-e1684438745337.jpg",
+    "ProductName": "Olive Tree",
+    "Description": "With shimmering sage-green leaves, the olive tree is ready to add delicate color and texture to your home decor.",
+    "Price": 79
+    },
+    {
+    "Id": 11,
+    "ProductImage": "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2020/08/bloomscape_dracaena-gold-lemon-lime_slate-1.jpg?ver=279723",
+    "ProductName": "Dracaena Gold Star",
+    "Description": "Whimsical and low-maintenance, with long, dark green and chartreuse striped leaves atop sturdy canes.",
+    "Price": 249
+    },
+    {
+    "Id": 12,
+    "ProductImage": "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=922,width=768,metadata=copyright,format=webp/wp-content/uploads/2022/06/bloomscape_money-tree-stump_lg_stone-scaled.jpg",
+    "ProductName": "Money Tree Stump",
+    "Description": "A perfect, low-care indoor foliage plant to give you a tropical feel with a touch of good fortune.",
+    "Price": 99
+    }
+    ]
