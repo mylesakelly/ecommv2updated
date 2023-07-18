@@ -12,6 +12,7 @@ import plant7 from '../images/plant7.webp';
 import plant8 from '../images/plant8.webp';
 import plant9 from '../images/plant9.webp';
 
+
 const Slider = () => {
   // useRef hook to create a reference to the slider element in the DOM.
     const sliderRef = useRef(null);
