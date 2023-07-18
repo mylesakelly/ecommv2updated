@@ -1,3 +1,8 @@
+Welcome to Flora & Fauna React App
+
+This app is deployed on Vercel: https://ecommv2updated.vercel.app/products
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
