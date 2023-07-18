@@ -48,42 +48,6 @@ const connection = mysql.createConnection({
     });
   });
 
-  // filtering data from mysql database
-
-  // products that are plants
-
-  app.get('/onlyplants', (req, res) => {
-    const query = 'SELECT * FROM plantproducts WHERE id IN (1, 2, 3, 5, 6, 8, 9)';
-  
-    connection.query(query, (error, results) => {
-      if (error) {
-        console.error('Error executing the query:', error);
-        res.status(500).send('Internal Server Error');
-      } else {
-        res.status(200).json(results);
-      }
-    });
-  });
-
-  // products that are trees
-
-  app.get('/onlytrees', (req, res) => {
-    const query = 'SELECT * FROM plantproducts WHERE id IN (4, 7, 10, 11, 12)';
-  
-    connection.query(query, (error, results) => {
-      if (error) {
-        console.error('Error executing the query:', error);
-        res.status(500).send('Internal Server Error');
-      } else {
-        res.status(200).json(results);
-      }
-    });
-  });
-
-  // products less than $50
-
-
-
 // establishing port connection for server (running on port 5000)
   app.listen(port, () => {
     console.log(`App is running on port ${port}...`);
