@@ -13,13 +13,16 @@ import plant8 from '../images/plant8.webp';
 import plant9 from '../images/plant9.webp';
 
 const Slider = () => {
+  // useRef hook to create a reference to the slider element in the DOM.
     const sliderRef = useRef(null);
   
     const scrollLeft = () => {
+      // scrolls the slider to the left by subtracting the width of the slider element from its current scroll position.
       sliderRef.current.scrollLeft -= sliderRef.current.offsetWidth;
     };
   
     const scrollRight = () => {
+      // scrolls the slider to the right by adding the width of the slider element to its current scroll position.
       sliderRef.current.scrollLeft += sliderRef.current.offsetWidth;
     };
   
