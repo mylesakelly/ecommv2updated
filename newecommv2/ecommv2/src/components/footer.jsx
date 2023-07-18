@@ -1,6 +1,12 @@
 import React from 'react';
-import './footer.css';
-// import {faInstagram} from "react-icons/fa";
+import '../css/footer.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faPinterest,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -38,16 +44,16 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* <div className="footer-col">
+          <div className="footer-col">
             <h4>follow us</h4>
             <div className="social-links">
-            <FontAwesomeIcon icon="fa-brands fa-instagram" />
-              <a className="social-icons" href="i.html"><i className="fab fa-facebook-f"></i></a>
-              <a className="social-icons" href="i.html"><i className="fab fa-twitter"></i></a>
-              <a className="social-icons" href="i.html"><i className="fab fa-instagram"></i></a>
-              <a className="social-icons" href="i.html"><i className="fab fa-linkedin-in"></i></a>
+
+              <a className="social-icons" href="https://facebook.com"><FontAwesomeIcon icon={faFacebook} /></a>
+              <a className="social-icons" href="https://instagram.com"><FontAwesomeIcon icon={faInstagram} /></a>
+              <a className="social-icons" href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} /></a>
+              <a className="social-icons" href="https://pinterest.com"><FontAwesomeIcon icon={faPinterest} /></a>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </footer>
