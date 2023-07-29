@@ -39,7 +39,7 @@ const Contact = () => {
   // handles the validation logic
   // if the user does not enter information into the fields they will receive an alert stating to fill out the information
   const validateForm = () => {
-    // Perform your validation logic here
+    // Perform validation logic here
     // Example: Check if all fields are filled
     const { firstname, lastname, email, subject } = formValues;
     if (firstname.trim() === '' || lastname.trim() === '' || email.trim() === '' || subject.trim() === '') {
